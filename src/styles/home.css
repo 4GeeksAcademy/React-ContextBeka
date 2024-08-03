@@ -1,0 +1,82 @@
+#btnAddContact {
+    background-color:rgb(131, 116, 100);
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    margin: 1%;
+    background-color: rgb(221, 211, 201);
+
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#divbody {
+    display: flex;
+    width: 50%;
+}
+
+#divprincipal {
+    background-color: rgb(131, 116, 100);
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border: none;
+    border-radius: 2%;
+    margin-bottom: 15px;
+}
+
+#divDatosContacto {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 0;
+}
+#avatar{
+    width: 100%;
+    margin: 0;
+}
+
+img {
+    width: 180px;
+    border-radius: 20%;
+}
+
+.inline-div {
+    margin: 1%;
+    flex-grow: 0;
+}
+
+.inline-div.grow {
+    flex-grow: 1;
+}
+
+#iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    flex-direction: row;
+}
+
+.inline-items {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color:rgb(131, 116, 100);
+    margin: 5px;
+}
+
+.inline-items svg {
+    margin-right: 8px;
+}
